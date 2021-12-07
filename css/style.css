@@ -1626,18 +1626,18 @@ h1, h2, h3, h4, h5,
       margin-right: 0px; } }
 
 .box-92819 {
-  z-index: 2;
+  z-index: 9999;
   /*background: #fff;*/
   border-radius: 5px;
   background:rgba(255, 255, 250, 0.75);
-  padding: 4rem;
+  padding: 3.4rem;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  max-width: 500px; }
+  max-width: 480px; }
 
 .media-02819 {
   margin-bottom: 60px; }
