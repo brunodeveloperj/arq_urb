@@ -610,9 +610,9 @@ h1, h2, h3, h4, h5,
   width: 300px;
   position: fixed;
   right: 0;
-  z-index: 2000;
+  z-index: 999999;
   padding-top: 20px;
-  background: #fff;
+  background: #FDA506;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5,
         -o-transition: .3s all ease;
         transition: .3s all ease; }
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
-          color: #ced4da; }
+          color: #FFFF; }
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
       float: left;
       margin-top: 10px;
@@ -680,9 +680,9 @@ h1, h2, h3, h4, h5,
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
-        color: #FFF; }
+        color: #FFFF; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #FFF; }
+        color: #FFFF; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
