@@ -1700,3 +1700,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 1;
     max-width: 80px; }
+
+.icon-size{
+  font-size: 2rem !important;
+}
