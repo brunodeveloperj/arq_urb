@@ -315,6 +315,16 @@ h1, h2, h3, h4, h5,
   .site-section.site-section-sm {
     padding: 4em 0; }
 
+.site-noticias {
+  background: #EDEDF5 !important;
+  padding: 2.5em 0; 
+}
+  @media (min-width: 768px) {
+    .site-noticias {
+      padding: 5em 0; } }
+    .site-noticias.site-noticias-sm {
+     padding: 4em 0; }
+
 .site-footer {
   padding: 4em 0;
   background-color: #FDA506; }
@@ -834,6 +844,57 @@ h1, h2, h3, h4, h5,
   padding: 7rem 0; }
   @media (max-width: 991.98px) {
     .site-section {
+      padding: 3rem 0; } }
+
+.site-noticias-cover {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .site-noticias-cover,
+  .site-noticias-cover .container {
+    position: relative;
+    z-index: 2; }
+  .site-noticias-cover,
+  .site-noticias-cover .container > .row {
+    height: calc(100vh - 196px);
+    min-height: 577px; }
+    @media (max-width: 991.98px) {
+      .site-noticias-cover,
+      .site-noticias-cover .container > .row {
+        height: calc(70vh - 196px);
+        min-height: 400px; } }
+  .site-noticias-cover.overlay {
+    position: relative; }
+    .site-noticias-cover.overlay:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1; }
+  .site-noticias-cover.inner-page,
+  .site-noticias-cover.inner-page .container > .row {
+    height: auto;
+    min-height: auto;
+    padding: 2em 0; }
+  .site-noticias-cover.img-bg-section {
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .site-noticias-cover h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1; }
+    @media (max-width: 991.98px) {
+      .site-noticias-cover h1 {
+        font-size: 2rem; } }
+  .site-noticias-cover p {
+    font-size: 18px;
+    color: #fff; }
+
+  @media (max-width: 991.98px) {
+    .site-noticias {
       padding: 3rem 0; } }
 
 .block-heading-1 span {
@@ -1704,3 +1765,126 @@ h1, h2, h3, h4, h5,
 .icon-size{
   font-size: 2rem !important;
 }
+
+/**
+Noticias em Destaque
+*/
+
+h2.noticias {
+  margin: 22px 0 35px 0;
+}
+
+.dados-noticia {
+
+}
+
+.dados-noticia p{
+  margin-top: 10px;
+}
+@media(max-width: 768px) {
+  .dados-noticia{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+}
+@media(max-width: 426px) {
+  .dados-noticia{
+    margin: 0 20px 20px 20px;
+  }
+}
+
+.img-noticia{
+  margin-right: 26px;
+}
+.img-noticia img {
+  object-fit: cover;
+  width: 245px;
+  height: 250px;
+  margin-left: 15px;
+}
+@media(max-width: 768px) {
+  .img-noticia{
+    margin-left: 26px;
+  }
+  .img-noticia img{
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+@media(max-width: 426px) {
+  .img-noticia{
+    margin-left: 26px;
+  }
+  .img-noticia img{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width: 768px) {
+  .video {
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+}
+
+.listaNoticias {
+  -webkit-tap-highlight-color: transparent;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #292B2C;
+  -webkit-font-smoothing: antialiased;
+  text-align: center!important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  min-width: 0;
+  padding: .25rem!important;
+  min-height: 114px;
+  border-color: #edf2f9;
+  box-shadow: 0 .75rem 1.5rem rgba(18, 38, 63, .03);
+  position: relative;
+  display: grid;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #edf2f9;
+  border-radius: .5rem;
+  transition: .4s;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
