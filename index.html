@@ -23,7 +23,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" onload="onLoad();" data-target=".site-navbar-target" data-offset="300">
 
 
   <div class="site-wrap" id="home-section">
@@ -40,9 +40,7 @@
     <div class="row" id="SITE_HEADER">
 
       <div class="col-md-12 div-header">
-        <div class="container background-grayLight text-right mt-2">
-          <h6 style="color: inherit;font-weight: 600;">LIGUE-NOS: (91) 98252-6537</h6>
-        </div>
+        <div id="div_phone" class="container background-grayLight text-right mt-2"></div>
       </div>
 
 
@@ -98,7 +96,7 @@
                 adequado(s) na qual estás necessitando. Agora, se ja tens em mente o que desejas fazer, conta-me que
                 ajudarei você. </p>
               <a target="_blank" style="width: 100% !important;"
-                href="https://api.whatsapp.com/send?phone=5591982526537&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
+                href="https://api.whatsapp.com/send?phone=5591987659134&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
                 class="btn text-uppercase rounded-0">Agendar uma consulta</a>
           </div>
         </div>
@@ -121,117 +119,9 @@
         </div>
       </div>
 
-      <div class="col-lg-8 col-md-6 col-sm-12" style="background-color: #FFFF !important;">
-
-        <div class="row mt-4 ml-2">
-
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> CONSULTAS</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p style="font-size:14px;">Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.
-            </p> -->
-          </div>
-
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> EXAMES</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-        </div>
-        <div class="row ml-2">
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> EMERGÊNCIA</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p style="font-size:14px;">Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.
-            </p> -->
-          </div>
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> CIRURGIAS</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-        </div>
-
-        <div class="row ml-2">
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> CASTRAÇÃO</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> VACINAS</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-        </div>
-
-        <div class="row ml-2">
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> MEDICAMENTOS</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> CUIDADOS DENTAIS</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-        </div>
-
-        <div class="row ml-2">
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> PETSHOP</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-          <div id="item-box" class="col-6 col-md-6 col-lg-4 item-services">
-            <h6><i class="icon-chevron-right" style="color: #28ADD1;"></i> BANHO E TOSA</h6>
-
-            <p>&nbsp;</p>
-
-            <!-- <p >Sou um parágrafo. Clique aqui para adicionar o seu próprio
-              texto.
-            </p> -->
-          </div>
-        </div>
-      </div>
+      <div id="div_services" class="col-lg-8 col-md-6 col-sm-12" style="background-color: #FFFF !important;"></div>
 
     </div>
-
 
 
     <div id="sobre" class="row ftco-cover-1 div-about">
@@ -244,20 +134,9 @@
       </div>
 
       <div class="col-lg-8 col-md-6 col-sm-12 mt-4">
-        <p>
-          Você ja ouviu falar na CLIVEPAN?<br>
-          Nós atuamos no mercado PET a 30 anos(1991), com o intuito de promover os seguinte serviços: <br>
+        <div id="div_about_text" class="col-12 col-md-6">
 
-          - Consultas.<br>
-          - Vacinação.<br>
-          - Cirurgias.<br>
-          - Raio - X.<br>
-          - Ultrassom(Laboratório Completo).<br>
-          - Petshop(Loja Completa).<br>
-          - Atendimento em Domicílio.<br>
-
-          Sempre promovendo uma boa qualidade e firmando parcerias com nossos clientes.<br>
-        </p>
+        </div>
       </div>
 
     </div>
@@ -350,7 +229,7 @@
               <p class="font_8" style="line-height:1.5em; font-size:14px;"><span style="letter-spacing:-0.01em;"><span
                     style="font-weight:bold;">Email:</span> <a data-auto-recognition="true"
                     href="mailto:clivepan2021@gmail.com">clivepan2021@gmail.com</a><br>
-                  <span style="font-weight:bold;">Tel: </span>&nbsp;<a>(91) 98252-6537</a></span></p>
+                  <span style="font-weight:bold;">Tel: </span>&nbsp;<a>(91) 98765-9134</a></span></p>
             </div>
           </div>
           <div class="col-md-1 col-sm-12">
@@ -372,8 +251,8 @@
               <p class="font_8" style="line-height:1.5em; font-size:14px;"><span style="letter-spacing:-0.01em;"><span
                     style="font-weight:bold;">08h00 - 12h00</span></span></p>
 
-              <p class="font_8" style="line-height:1.5em; font-size:14px;"><span
-                  style="letter-spacing:-0.01em;">Sábado - Domingo</span></p>
+              <p class="font_8" style="line-height:1.5em; font-size:14px;"><span style="letter-spacing:-0.01em;">Sábado
+                  - Domingo</span></p>
             </div>
 
           </div>
@@ -401,7 +280,7 @@
             <a title="Facebook" href="https://www.facebook.com/clivepanananindeua"
               class="smoothscroll icon-size pl-0 pr-2" target="_blank"><span class="icon-facebook"></span></a>
             <a title="Whatsapp"
-              href="https://api.whatsapp.com/send?phone=5591982526537&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
+              href="https://api.whatsapp.com/send?phone=5591987659134&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
               class="smoothscroll icon-size pl-3 pr-2" target="_blank"><span class="icon-whatsapp"></span></a>
             <a title="Instagram" href="https://www.instagram.com/clivepanclinicaveterinaria/"
               class="smoothscroll icon-size pl-3 pr-2" target="_blank"><span class="icon-instagram"></span></a>
@@ -440,10 +319,12 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
 
 
-  <div><a
-      href="https://api.whatsapp.com/send?phone=5591982526537&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
+
+  <div>
+    <a href="https://api.whatsapp.com/send?phone=5591987659134&text=Olá, tudo bem? Visualizei seus serviços no site e gostaria de obter mais informações.😉"
       target="_blank" rel="noopener noreferrer"><img class="whatsapp"
         src="https://3.bp.blogspot.com/-ckiKOobNJy8/XRIGyySxDII/AAAAAAAACv0/09JFzT4vlcUYHq19lu-pQfWjYq6dyKYzQCLcBGAs/s1600/contatowhats.png"></a>
   </div>
